@@ -4,7 +4,7 @@ INSTRUCTIONS
 LOCATOR TESTS
 -----------
 
-There are three tests, lts_020.jmx, lts_021.jmx, lts_025.jmx which are located in this directory:
+There are three tests: lts_020.jmx, lts_021.jmx, lts_025.jmx which are located in this directory.
 
 (.jmx are JMeter XML files)
 
