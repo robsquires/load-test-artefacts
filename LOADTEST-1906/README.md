@@ -6,8 +6,6 @@ LOCATOR TESTS
 
 There are three tests, lts_020.jmx, lts_021.jmx, lts_025.jmx which are located in this directory:
 
-https://github.com/BBC/load-test-artefacts/tree/master/LOADTEST-1906
-
 (.jmx are JMeter XML files)
 
 
