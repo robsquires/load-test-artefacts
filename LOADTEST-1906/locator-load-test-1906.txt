@@ -1,0 +1,4 @@
+test name, data file
+/locator/locations/{postcode}/details/gss-council?format=json&op=intersect ds_020-postcodes-16992
+/locator/locations/{geoname_id}/details/gss-council?format=json&op=intersect ds_001-geonames_domestic-2304
+/locator/locations/{postcode}/details/ns-aande?format=json&op=nearest ds_028-postcodes-17357-encoded
