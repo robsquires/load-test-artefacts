@@ -1,18 +1,20 @@
-#### Cached Results
+#### No cache results
 
-| Test     | Requests  | Average | Median | 90% Line | Min | Max | Error | Throughput |
-| -------- | --------- | ------- | ------ | -------- | --- | --- | ----- | ----------- |
-| lts_020  |  483813	 |    5      |    5    |   7       |  3    | 950 |  0.00% |  200.1/sec |
-| lts_020   |  186957	 |    6	    |    5    |   7       |  2    |  973 | 0.00% |  300.4/sec  |
-| lts_021   |  115925	 |    9	    |    5    |   7	  |  3	  |  987 | 0.00% |  200.3/sec  |
-| lts_021   |  186619	 |    5	    |    5    |   6	  |  3	  |  961 | 0.00% |  300.5/sec  |
-| lts_025   |  124894	 |    11   |     6    |   13	 |   3    | 1520 | 2.09% |  200.3/sec  |
+* lts_020 and lts_021 will not exceed a throughput of around 80RPS, indicating that these queries cannot handle a larger
+  load and a no-cache header.
+
+| Test     | Requests  | Average | Median | 90% Line | Min  | Max   | Error | Throughput  |
+| -------- | --------- | ------- | ------ | -------- | ---  | ---   | ----- | ----------- |
+| lts_020  | 56340     | 12187   | 12241  | 13362    | 80   | 19383 | 0.03% | 80.9/sec    |
+| lts_021  | 49877     | 12143   | 12733  | 13553    | 67   | 18138 | 0.00% | 77.7/sec    |
+| lts_025  | 83520     | 76      | 92     | 115      | 115  | 1965  | 2.09% | 201.9/sec   |
+| lts_025  | 138757    | 93      | 97     | 121      | 7    | 6943  | 2.10% | 301.2/sec  |
 
 
-#### No-Cache Results 
+#### Cache results 
 | Test     | Requests  | Average | Median | 90% Line | Min | Max    | Error | Throughput |
 | -------- | --------- | ------- | ------ | -------- | --- | ---   | ----- | ----------- |
-| lts_025  | 460931    | 	1822   | 1203	  | 3439     | 8   | 26716	| 2.22%  | 905.2/sec   |
+
 
 
 
