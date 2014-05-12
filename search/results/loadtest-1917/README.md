@@ -20,14 +20,15 @@ Note: Time in milliseconds
 
 ##### Conclusion
 
-* Search-query:
+* Search-query
+
 The desired 300ms average response rate is within a throughput of 220/sec,
 although the 90% line breaks the threshold at around 200/sec. The application
 server will not accept requests above 220/sec.
 
 * CloudView
-The are some QueryProcessingExceptions thrown in these tests because of unknown
-URL prefixes (e.g. 'Unknown prefix in UQL query: MH370").
 
-The 90% line breaks the 300ms response at around 120/sec. At a throughput of
-170/sec the average response times rises above 300ms.
+The are some QueryProcessingExceptions thrown in these tests because of unknown
+URL prefixes (e.g. 'Unknown prefix in UQL query: MH370"). The 90% line breaks
+the 300ms response at around 120/sec. At a throughput of 170/sec the average
+response times rises above 300ms.
