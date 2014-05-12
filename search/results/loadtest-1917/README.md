@@ -17,7 +17,7 @@ Note: Time in milliseconds
 
 ##### Conclusion
 
-* Search-query: The desired 300 average response is within a throughput of 220/sec,
-although the 90% line breaks through the threshold at around 200/sec. The application
-server will not accept requests above 200/sec.
+* Search-query: The desired 300ms average response rate is within a throughput of 220/sec,
+although the 90% line breaks the threshold at around 200/sec. The application
+server will not accept requests above 220/sec.
 
